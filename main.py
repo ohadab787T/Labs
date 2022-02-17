@@ -11,7 +11,7 @@ for i in range(len(sides)):
             c = sides[k]
             if a + b > c and a + c > b and b + c > a:
                 p = (a + b + c) / 2
-                s = (p * (p - a) * (p - b) * (p -c)) ** (1 / 2)
+                s = (p * (p - a) * (p - b) * (p - c)) ** (1 / 2)
                 if s > smax:
                     smax = s
 
